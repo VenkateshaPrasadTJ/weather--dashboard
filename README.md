@@ -1,3 +1,26 @@
+# Weather Dashboard
+This project is a Weather Dashboard built using React, TypeScript, and Material-UI (MUI). The application allows users to add and remove weather widgets that display the current weather for a specific location (New York), with temperature conversion between Celsius and Fahrenheit. The dashboard's state is persisted across browser sessions using localStorage.
+
+# Features
+Add/Remove Weather Widgets: Users can add multiple weather widgets to the dashboard, each displaying weather information for a predefined location (e.g., New York).
+Temperature Unit Toggle: Each widget allows toggling between Celsius and Fahrenheit.
+State Persistence: Widgets added by users are persisted in the browser’s localStorage so that they remain even after a page refresh.
+Responsive Design: The dashboard is responsive and adapts to different screen sizes.
+Styled UI: The application uses Material-UI for a sleek design, and it incorporates a background image to enhance visual appeal.
+# Technologies Used
+React (with Hooks)
+TypeScript
+Material-UI (MUI)
+React Icons
+LocalStorage for state persistence
+CSS Flexbox and Grid for layout and responsiveness
+Getting Started
+Prerequisites
+Ensure you have the following installed:
+
+Node.js (v14 or higher)
+npm or yarn (Node package managers)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
